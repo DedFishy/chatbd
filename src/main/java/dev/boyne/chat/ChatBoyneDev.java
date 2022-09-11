@@ -9,9 +9,14 @@ public class ChatBoyneDev {
 
     public static void registerPaths(Javalin app) {
         PageLoader pageLoader = new PageLoader();
-        app.get("/", ctx -> ctx.html(pageLoader.readFile("index.html")));
-        app.get("/static/<file>", ctx -> ctx.html(pageLoader.readFile(ctx.pathParam("file"))));
-        app.get("/style/<file>", ctx -> ctx.html("styles/" + pageLoader.readFile(ctx.pathParam("file"))));
+        app.get("/", ctx -> ctx.html(pageLoader.readFile("/index.html")));
+
+        app.get("/static/<file>", ctx -> ctx.html("/" + pageLoader.readFile(ctx.pathParam("file"))));
+
+        app.get("/style/<cssfile>", ctx -> {
+            ctx.contentType("css");
+            ctx.result(pageLoader.readFile("/styles/" + ctx.pathParam("cssfile")));
+        });
     }
 
     public static void main(String[] args) {

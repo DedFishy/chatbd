@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="627f20eb-0bfd-4f47-b2d5-2a0e38a95677" name="Changes" comment="Added actual code">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/boyne/chat/ChatBoyneDev.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/boyne/chat/ChatBoyneDev.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dev/boyne/chat/PageLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dev/boyne/chat/PageLoader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662865515460</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added actual code">
+      <created>1662866189091</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662866189091</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

@@ -17,7 +17,7 @@ public class PageLoader {
     }
     public String readFile(String fileName) {
         try {
-            return this.readFromInputStream(ChatBoyneDev.class.getResourceAsStream("/index.html"));
+            return this.readFromInputStream(ChatBoyneDev.class.getResourceAsStream(fileName));
         } catch (IOException e) {
             return "Error: " + e;
         }
