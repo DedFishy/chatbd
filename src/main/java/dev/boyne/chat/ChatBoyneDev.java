@@ -11,6 +11,7 @@ public class ChatBoyneDev {
         PageLoader pageLoader = new PageLoader();
         app.get("/", ctx -> ctx.html(pageLoader.readFile("index.html")));
         app.get("/static/<file>", ctx -> ctx.html(pageLoader.readFile(ctx.pathParam("file"))));
+        app.get("/style/<file>", ctx -> ctx.html("styles/" + pageLoader.readFile(ctx.pathParam("file"))));
     }
 
     public static void main(String[] args) {
